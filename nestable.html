@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3 align="center">Using tables in website</h3>
+    <table width="50%" border="1" align="center">
+        <caption>nested table</caption>
+        <tr align="center">
+            <td><b>Column 1</b></td>
+            <td><b>Column 2</b></td>
+        </tr>
+
+        <tr align="center">
+            <td colspan="2">colspan column</td>
+        </tr>
+
+        <tr align="center">
+            <td rowspan="2">Rowspan cell</td>
+            <td>cell 2</td>
+        </tr>
+
+        <tr align="center">
+            <td>
+                <table border="1" align="center" bgcolor="yellow" cellspacing="10px" cellpadding="20px">
+                    <tr align="center">
+                        <td>inner column heading 1</td>
+                        <td>inner column heading 2</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td bgcolor="slategrey">Inner data cell 1</td>
+                        <td bgcolor="greenyellow">
+                            <table border="1" align="center" bgcolor="lightpink" cellspacing="10px" cellpadding="20px">
+                                <tr align="center">
+                                    <td>Inner most column heading 1</td>
+                                    <td>Inner most column heading 2</td>
+                                </tr>
+                                <tr align="center">
+                                    <td bgcolor="violet">Inner most data cell 1</td>
+                                    <td bgcolor="violet">Inner most data cell 1</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
